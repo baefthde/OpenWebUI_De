@@ -81,29 +81,40 @@ Anschließend kann der KI Chat mit Sprachausgabe getestet werden.
 
 ## Hinweis
 
+### Andere LLM
+
 sowohl direkt über ollama als auch über die Weboberfläche von OpenWebUI können auch weitere LLM installiert werden:
 
 Die Auswahl der verfügbaren LLM Modele sind hier zu finden: [https://ollama.com/library](https://ollama.com/library)
 
 z.B. ollama pull mistral
+
+## Andere Sprachen bzw. Stimmen
+
+1. Die Sprach-Dateien müssen vom Typ Sprache.onnx und Sprache.onnx.json sein und müssen in den Ordner ~/openedai-speech/voices abgelegt werden.
+2. Die Konfigurationsdatei ~/openedai-speech/config/voice_to_speaker.yaml muss angepasst werden, genauere Infos unter: [https://github.com/matatonic/openedai-speech](https://github.com/matatonic/openedai-speech)
   
 ## Übersicht der genutzen Projekte
 ### Open Web UI
+
 [openwebui.com](https://openwebui.com)
 
 [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
 
 ### openedai-speech-integration
+
 [openedai-speech-integration](https://docs.openwebui.com/tutorial/openedai-speech-integration/)
 
 [https://github.com/matatonic/openedai-speech](https://github.com/matatonic/openedai-speech)
 
 ### thorsten-voice
+
 [https://www.thorsten-voice.de/](https://www.thorsten-voice.de/)
 
 [https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE/thorsten/high](https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE/thorsten/high)
 
-Testen der Stimmen:
+####Testen der Stimmen:
+
 [https://rhasspy.github.io/piper-samples/](https://rhasspy.github.io/piper-samples/)
 
 ## Autor (Authors)
