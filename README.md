@@ -19,7 +19,7 @@ Abrbeitsspeicher sollte mindestens 16 GB Ram sein
 # über ein Befehl
 
 ```bash
-  wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh | chmod +x OpenWebUI_De.sh | ./install.sh
+  wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh | chmod +x install.sh | ./install.sh
 ```
 
 # Manuell über git
