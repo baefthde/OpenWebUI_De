@@ -62,6 +62,7 @@ installiert:
 ## Einstellungen nach der Installation
 
 OpenWebUI aufrufen unter http://IP:8080
+
 Erste Registrierung bekommt Adminrechte zum konfigurieren (Name, Email, Password), es wird keine Email versandt!
 
 - (Settings) Einstellungen -> (General) Allgemein:
@@ -81,7 +82,9 @@ Anschließend kann der KI Chat mit Sprachausgabe getestet werden.
 ## Hinweis
 
 sowohl direkt über ollama als auch über die Weboberfläche von OpenWebUI können auch weitere LLM installiert werden:
+
 Die Auswahl der verfügbaren LLM Modele sind hier zu finden: [https://ollama.com/library](https://ollama.com/library)
+
 z.B. ollama pull mistral
   
 ## Übersicht der genutzen Projekte
