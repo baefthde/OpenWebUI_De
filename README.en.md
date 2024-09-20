@@ -14,13 +14,13 @@ The documentation is still in progress.
 
 ## Dependencies
 
-Linux (tested with Ubuntu 24 LTS Server)
+ - Linux (tested with Ubuntu 24 LTS Server)
 
-RAM should be at least 16 GB RAM for the standard installation of llama3.1 (use via CPU, adaptation for AMD or NVIDIA also possible, see Ollama)
+ - The RAM should be at least 16 GB Ram for the standard installation of llama3.1 (use via CPU, adaptation for AMD GPU or NVIDIA GPC also possible, see Ollama)
 
-at least 40 GB storage space hard drive/SSD
+ - at least 40 GB storage space hard drive/SSD
 
-root rights
+ - root rights
 
 ## Installation
 
