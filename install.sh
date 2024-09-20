@@ -12,4 +12,5 @@ echo "  Paket per Git laden"
 git clone https://github.com/baefthde/OpenWebUI_De
 echo "  Paket starten"
 cd OpenWebUI_De
+chmod +x OpenWebUI_De.sh
 ./OpenWebUI_De.sh
