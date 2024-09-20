@@ -14,12 +14,14 @@ Ziel ist eine einfache installation und starten der OpenWebUi auf Deutsch
 
 Linux (getestet mit Ubuntu 24 LTS Server)
 Abrbeitsspeicher sollte mindestens 16 GB Ram sein
-
+mindestens 30 GB Speicherplatz 
+ - ca. 5 GB ein neues Ubuntu 24 LTS Server mini
+ - ca. 25 GB für die Programme
 
 # über ein Befehl
 
 ```bash
-  wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh | chmod +x install.sh | ./install.sh
+  wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 # Manuell über git
