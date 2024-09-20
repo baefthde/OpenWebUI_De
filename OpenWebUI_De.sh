@@ -20,7 +20,7 @@ echo "  2. openwebui über Docker starten"
 echo "  Vorkonfiguriert für ollama API mit 127.0.0.1:11434"
 #sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 echo "  Vorkonfiguriert für externe Datenbank: webui.db"
-sudo docker run -d --network=host -v open-webui:/app/backend/data -v /home/bastian/open-webui/webui.db:/app/backend/data/webui.db -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+sudo docker run -d --network=host -v open-webui:/app/backend/data -v ~/open-webui/webui.db:/app/backend/data/webui.db -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 
 echo "  3. watchtower über Docker starten, damit sich der Docker Container openwebui immer alle 24 Stunden aktualisiert"
 sudo docker run -d --name watchtower --volume /var/run/docker.sock:/var/run/docker.sock containrrr/watchtower open-webui
