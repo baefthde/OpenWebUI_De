@@ -16,7 +16,8 @@ Die Dokumentation  ist noch in Arbeit.
 
 Linux (getestet mit Ubuntu 24 LTS Server)
 
-Arbeitsspeicher sollte mindestens 16 GB Ram sein für llama3.1
+Arbeitsspeicher sollte mindestens 16 GB Ram sein für die Standart Installation von llama3.1 (nutzung über CPU, Anpassung für AMD oder NVIDIA auch möglich, siehe Ollama)
+
 
 mindestens 40 GB Speicherplatz Festplatte/SSD
 
@@ -95,6 +96,13 @@ z.B. ollama pull mistral
 2. Die Konfigurationsdatei ~/openedai-speech/config/voice_to_speaker.yaml muss angepasst werden, genauere Informationen unter: [https://github.com/matatonic/openedai-speech](https://github.com/matatonic/openedai-speech)
   
 ## Übersicht der genutzten Projekte
+
+### Ollama
+
+[https://ollama.com/](https://ollama.com/)
+
+[https://github.com/ollama/ollama](https://github.com/ollama/ollama)
+
 ### Open Web UI
 
 [openwebui.com](https://openwebui.com)
