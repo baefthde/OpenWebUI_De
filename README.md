@@ -10,7 +10,7 @@ Ein Script für die Installation und anschließende Registrierung und Einstellun
 ## Dokumentation
 
 Die Dokumentation  ist noch in Arbeit.
-[Dokumentation](https://github.com/baefthde/OpenWebUI_De/docs/)
+[Dokumentation](https://github.com/baefthde/OpenWebUI_De/tree/main/docshttps://github.com/baefthde/OpenWebUI_De/tree/main/docs)
 
 ## Abhängigkeiten
 
