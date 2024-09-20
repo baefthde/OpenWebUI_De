@@ -21,8 +21,6 @@ echo -e "${blue}  1. ollama installieren:  ${reset}"
 curl -fsSL https://ollama.com/install.sh | sh
 
 echo -e "${blue}  1.1 ollama mit llama3.1 starten  ${reset}"
-echo -e "${blue}      muss manuell beendet werden mit /bye  ${reset}"
-# ollama run llama3.1
 ollama pull llama3.1
 
 echo -e "${blue}  2. openwebui über Docker starten  ${reset}"
