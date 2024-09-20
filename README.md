@@ -21,7 +21,7 @@ mindestens 30 GB Speicherplatz
 # über ein Befehl
 
 ```bash
-  rm install.sh && wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
+  wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 # Manuell über git
@@ -32,7 +32,15 @@ mindestens 30 GB Speicherplatz
   chmod +x OpenWebUI_De.sh
   ./OpenWebUI_De.sh
 ```
-    
+## Ausführen der OpenWebUI_De.sh
+
+Hinweis bei der Installation von ollama muss einmal
+
+```bash
+/bye
+```
+eingegeben werden
+
 ## Autor (Authors)
 
 - [@baefthde](https://www.github.com/baefthde)
