@@ -12,6 +12,14 @@ Ziel ist eine einfache installation und starten der OpenWebUi auf Deutsch
 
 ## Installation
 
+# per Script
+
+```bash
+wget https://github.com/baefthde/OpenWebUI_De/install.sh | bash ./install.sh
+```
+
+# über git
+
 ```bash
   git clone https://github.com/baefthde/OpenWebUI_De
   cd /OpenWebUI_De
