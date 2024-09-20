@@ -11,6 +11,10 @@ echo -e "${blue}  2. - openwebui als Weboberfläche auf Port 8080  ${reset}"
 echo -e "${blue}  3. - watchtower zum dauerhaften aktualisieren von open-webui  ${reset}"
 echo -e "${blue}  4. - Deutscher Sprachausgabe über openedai-speech API Schnistelle mit der Stimme von thorsten  ${reset}"
 echo " "
+
+echo -e "${blue}  Abhänigkeit installieren: Docker über snap  ${reset}"
+sudo snap install docker
+
 echo -e "${blue}  ins Userverzeichnis gehen  ${reset}"
 cd ~
 echo -e "${blue}  1. ollama installieren:  ${reset}"
