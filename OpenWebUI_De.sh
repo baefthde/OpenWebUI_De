@@ -19,6 +19,11 @@ ollama run llama3.1
 echo "  2. openwebui über Docker starten"
 echo "  Vorkonfiguriert für ollama API mit 127.0.0.1:11434"
 #sudo docker run -d --network=host -v open-webui:/app/backend/data -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
+
+echo "  Lerre OpenWebUI Datenbank erstellen"
+mkdir open-webui
+touch ~/open-webui/webui.db
+
 echo "  Vorkonfiguriert für externe Datenbank: webui.db"
 sudo docker run -d --network=host -v open-webui:/app/backend/data -v ~/open-webui/webui.db:/app/backend/data/webui.db -e OLLAMA_BASE_URL=http://127.0.0.1:11434 --name open-webui --restart always ghcr.io/open-webui/open-webui:main
 
