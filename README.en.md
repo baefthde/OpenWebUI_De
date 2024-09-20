@@ -10,7 +10,7 @@ A script for the installation and subsequent registration and settings for Germa
 ## Documentation
 
 The documentation is still in progress.
-[(Documentation)](https://github.com/baefthde/OpenWebUI_De/doc/)
+[Documentation](https://github.com/baefthde/OpenWebUI_De/blob/master/docs/README.en.md)
 
 ## Dependencies
 
