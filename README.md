@@ -1,6 +1,8 @@
 
 # Projekt [OpenWebUI_De](https://github.com/baefthde/OpenWebUI_De/)
 
+Deutsch (English)
+
 Ziel ist eine einfache Installation und starten der OpenWebUi auf Deutsch mit Deutscher Sprachausgabe
 
 (The goal is a simple installation and starting the OpenWebUi in German)
