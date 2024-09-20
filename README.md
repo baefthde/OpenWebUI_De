@@ -13,6 +13,8 @@ Ziel ist eine einfache installation und starten der OpenWebUi auf Deutsch
 # Abhänigkeiten
 
 Linux (getestet mit Ubuntu 24 LTS Server)
+Abrbeitsspeicher sollte mindestens 16 GB Ram sein
+
 
 # über ein Befehl
 
