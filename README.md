@@ -12,7 +12,7 @@ Ein Script für die Installation und Anschließende Registrierung und Einstellun
 noch in Arbeit
 [Dokumentation](https://github.com/baefthde/OpenWebUI_De/doc/) [(Documentation)](https://github.com/baefthde/OpenWebUI_De/doc/)
 
-# Abhänigkeiten
+## Abhänigkeiten
 
 Linux (getestet mit Ubuntu 24 LTS Server)
 
@@ -24,7 +24,7 @@ root Rechte
 
 ## Installation
 
-# Alles über ein Befehl installieren :-)
+### Alles über ein Befehl installieren :-)
 
 lediglich einmal das Password für die Root wird benötigt
 
@@ -38,7 +38,7 @@ Die install.sh:
  - holt das aktuelle OpenWebUI_De Verzeichnis über git
  - setzt die Rechte und führt OpenWebUI_De.sh aus
 
-# Manuell über git
+### Manuell über git
 
 ```bash
   git clone https://github.com/baefthde/OpenWebUI_De
@@ -47,7 +47,7 @@ Die install.sh:
   ./OpenWebUI_De.sh
 ```
 
-# OpenWebUI_De.sh
+### OpenWebUI_De.sh
 
 installiert:
  - Docker über Snap
@@ -85,15 +85,15 @@ Die Auswahl der verfügbaren LLM Modele sind hier zu finden: [https://ollama.com
 z.B. ollama pull mistral
   
 ## Übersicht der genutzen Projekte
-# Open Web UI
+### Open Web UI
 [openwebui.com](https://openwebui.com)
 [https://github.com/open-webui/open-webui](https://github.com/open-webui/open-webui)
 
-# openedai-speech-integration
+### openedai-speech-integration
 [openedai-speech-integration](https://docs.openwebui.com/tutorial/openedai-speech-integration/)
 [https://github.com/matatonic/openedai-speech](https://github.com/matatonic/openedai-speech)
 
-# thorsten-voice
+### thorsten-voice
 [https://www.thorsten-voice.de/](https://www.thorsten-voice.de/)
 [https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE/thorsten/high](https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE/thorsten/high)
 
