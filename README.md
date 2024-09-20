@@ -5,21 +5,18 @@
 
 Ziel ist eine einfache Installation und starten der OpenWebUi auf Deutsch mit Deutscher Sprachausgabe
 
-(The goal is a simple installation and starting the OpenWebUi in German)
-
 Ein Script für die Installation und anschließende Registrierung und Einstellungen für Deutsche Sprachausgabe
 
-## Dokumentation (Documentation)
+## Dokumentation
 
 Die Dokumentation  ist noch in Arbeit.
-[Dokumentation](https://github.com/baefthde/OpenWebUI_De/doc/) [(Documentation)](https://github.com/baefthde/OpenWebUI_De/doc/)
+[Dokumentation](https://github.com/baefthde/OpenWebUI_De/docs/)
 
 ## Abhängigkeiten
 
 Linux (getestet mit Ubuntu 24 LTS Server)
 
 Arbeitsspeicher sollte mindestens 16 GB Ram sein für die Standart Installation von llama3.1 (nutzung über CPU, Anpassung für AMD oder NVIDIA auch möglich, siehe Ollama)
-
 
 mindestens 40 GB Speicherplatz Festplatte/SSD
 
