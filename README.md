@@ -21,14 +21,14 @@ mindestens 30 GB Speicherplatz
 # über ein Befehl
 
 ```bash
-  wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
+  rm install.sh && wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
 ```
 
 # Manuell über git
 
 ```bash
   git clone https://github.com/baefthde/OpenWebUI_De
-  cd /OpenWebUI_De.sh
+  cd /OpenWebUI_De
   chmod +x OpenWebUI_De.sh
   ./OpenWebUI_De.sh
 ```
