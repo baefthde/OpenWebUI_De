@@ -17,6 +17,7 @@ Abrbeitsspeicher sollte mindestens 16 GB Ram sein
 mindestens 30 GB Speicherplatz 
  - ca. 5 GB ein neues Ubuntu 24 LTS Server mini
  - ca. 25 GB für die Programme
+installierte docker / docker compose, kann auch über ubuntu snap installiert werden
 
 # über ein Befehl
 
