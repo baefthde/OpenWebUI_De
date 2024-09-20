@@ -3,47 +3,42 @@
 
 [![de](https://img.shields.io/badge/lang-de-green.svg)](https://github.com/baefthde/OpenWebUI_De/blob/master/README.md)
 
-Deutsch (English)
+The goal is a simple installation and starting the OpenWebUi in German.
 
-Ziel ist eine einfache Installation und starten der OpenWebUi auf Deutsch mit Deutscher Sprachausgabe
+A script for the installation and subsequent registration and settings for German speech output
 
-(The goal is a simple installation and starting the OpenWebUi in German)
+## Documentation
 
-Ein Script für die Installation und anschließende Registrierung und Einstellungen für Deutsche Sprachausgabe
+The documentation is still in progress.
+[(Documentation)](https://github.com/baefthde/OpenWebUI_De/doc/)
 
-## Dokumentation (Documentation)
+## Dependencies
 
-Die Dokumentation  ist noch in Arbeit.
-[Dokumentation](https://github.com/baefthde/OpenWebUI_De/doc/) [(Documentation)](https://github.com/baefthde/OpenWebUI_De/doc/)
+Linux (tested with Ubuntu 24 LTS Server)
 
-## Abhängigkeiten
+RAM should be at least 16 GB RAM for the standard installation of llama3.1 (use via CPU, adaptation for AMD or NVIDIA also possible, see Ollama)
 
-Linux (getestet mit Ubuntu 24 LTS Server)
+at least 40 GB storage space hard drive/SSD
 
-Arbeitsspeicher sollte mindestens 16 GB Ram sein für die Standart Installation von llama3.1 (nutzung über CPU, Anpassung für AMD oder NVIDIA auch möglich, siehe Ollama)
-
-
-mindestens 40 GB Speicherplatz Festplatte/SSD
-
-root Rechte
+root rights
 
 ## Installation
 
-### Alles über einen Befehl installieren :-)
+### Install everything with one command :-)
 
-lediglich einmal das Password für die Root wird benötigt
+The password for the root is only required once
 
 ```bash
   wget https://raw.githubusercontent.com/baefthde/OpenWebUI_De/refs/heads/main/install.sh && chmod +x install.sh && ./install.sh
 ```
-Ausführen Download sowie Rechte setzen und Ausführen install.sh
+Execute download and set rights and execute install.sh
 
-Die install.sh:
- - installiert git
- - holt das aktuelle OpenWebUI_De Verzeichnis über git
- - setzt die Rechte und führt OpenWebUI_De.sh aus
+The install.sh:
+ - installed git
+ - get the current OpenWebUI_De directory via git
+ - sets the rights and runs OpenWebUI_De.sh
 
-### Manuell über git
+### Manually via git
 
 ```bash
   git clone https://github.com/baefthde/OpenWebUI_De
@@ -53,54 +48,56 @@ Die install.sh:
 ```
 
 ### OpenWebUI_De.sh
-
-installiert:
- - Docker über Snap
- - ollama als API Schnittstelle (nur intern auf 127.0.0.1:11434)
-   - llama3.1 als LLM (Large Language Model) Sprachmodell von Meta AI
- - OpenWebUI in Docker (extern erreichbar über Port: 8080)
-   - OpenWenUI Datenbank unter ~/open-webui/webui.db für Sicherungs- und Wiederherstellung außerhalb von Docker erreichbar
- - watchtower in Docker, damit OpenWebUI jede Stunde sich automatisch aktualisiert
- - openedai-speech API Schnittstelle (extern erreichbar Port: 8000)
-   - mit Deutscher Sprachausgabe über die Stimme von thorsten-voice
-
-## Einstellungen nach der Installation
-
-OpenWebUI aufrufen unter http://IP:8080
-
-Erste Registrierung bekommt Adminrechte zum Konfigurieren (Name, E-Mail, Password), es wird keine E-Mail versandt!
-
-- (Settings) Einstellungen -> (General) Allgemein:
-  - (Language) Sprache auf "German Deutsch" einstellen
-- Einstellungen -> Audio -> TTS-Einstellungen
-  - Antwort automatisch abspielen auf Ein
-- Admin Panel -> Einstellungen -> Verbindungen
-	 - OpenAI-API sollte deaktiviert werden
-  - Ollama-API ist auf http://localhost:11434 über Docker start eingestellt
-- Admin Panel -> Einstellungen -> Audio
-  - TTS-Einstellungen:
-    - Text-zu-Sprache-Engine: http://IP:8000/v1 OpenAI: sk-111111111
-    - TTS-Stimme: thorsten TTS-Modell: tts-1
-
-Anschließend kann der KI Chat mit Sprachausgabe getestet werden.
-
-## Hinweis
-
-### Andere LLM
-
-sowohl direkt über ollama als auch über die Weboberfläche von OpenWebUI können auch weitere LLM installiert werden:
-
-Die Auswahl der verfügbaren LLM Modele sind hier zu finden: [https://ollama.com/library](https://ollama.com/library)
-
-z.B. ollama pull mistral
-
-## Andere Sprachen bzw. Stimmen
-
-1. Die Sprach-Dateien müssen vom Typ Sprache.onnx und Sprache.onnx.json sein und müssen in den Ordner ~/openedai-speech/voices abgelegt werden.
-2. Die Konfigurationsdatei ~/openedai-speech/config/voice_to_speaker.yaml muss angepasst werden, genauere Informationen unter: [https://github.com/matatonic/openedai-speech](https://github.com/matatonic/openedai-speech)
   
-## Übersicht der genutzten Projekte
+installed:
+ - Docker via Snap
+ - ollama as API interface (only internally on 127.0.0.1:11434)
+   - llama3.1 as LLM (Large Language Model) language model from Meta AI
+ - OpenWebUI in Docker (accessible externally via port: 8080)
+   - OpenWenUI database at ~/open-webui/webui.db accessible for backup and restore outside of Docker
+ - watchtower in Docker so that OpenWebUI updates itself automatically every hour
+ - openedai-speech API interface (externally accessible port: 8000)
+   - with German voice output via the voice of Thorsten-Voice
 
+## Settings after installation
+
+Open OpenWebUI at [http://IP:8080](http://IP:8080)
+
+First registration gets admin rights for configuration (name, email, password), no email will be sent!
+
+
+- Settings -> General:
+  -  Set Language to "German Deutsch".
+- Settings -> Audio -> TTS Settings
+  - Autoplay reply on
+- Admin Panel -> Settings -> Connections
+	 - OpenAI API should be disabled
+  - Ollama API is set to http://localhost:11434 via Docker start
+- Admin Panel -> Settings -> Audio
+  - TTS settings:
+    - Text-to-speech-engine: http://IP:8000/v1 OpenAI: sk-111111111
+    - TTS voice: thorsten TTS-model: tts-1
+
+The AI ​​chat with voice output can then be tested.
+
+
+## A notice
+
+### Other LLMs
+
+Additional LLMs can also be installed both directly via ollama and via the OpenWebUI web interface:
+
+The selection of available LLM models can be found here: [https://ollama.com/library](https://ollama.com/library)
+
+e.g. ollama pull mistral
+
+## Other languages ​​or voices
+
+1. The voice files must be of the type language.onnx and language.onnx.json and must be placed in the folder ~/openedai-speech/voices.
+2. The configuration file ~/openedai-speech/config/voice_to_speaker.yaml needs to be adjusted, more detailed information can be found at: [https://github.com/matatonic/openedai-speech](https://github.com/matatonic/openedai -speech)
+  
+## Overview of the projects used
+  
 ### Ollama
 
 [https://ollama.com/](https://ollama.com/)
@@ -125,10 +122,10 @@ z.B. ollama pull mistral
 
 [https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE/thorsten/high](https://huggingface.co/rhasspy/piper-voices/tree/main/de/de_DE/thorsten/high)
 
-#### Testen der Stimmen:
+#### Testing the voices
 
 [https://rhasspy.github.io/piper-samples/](https://rhasspy.github.io/piper-samples/)
 
-## Autor (Authors)
+## Authors
 
 - [@baefthde](https://www.github.com/baefthde)
