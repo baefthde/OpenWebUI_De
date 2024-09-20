@@ -15,8 +15,11 @@ noch in Arbeit
 # Abhänigkeiten
 
 Linux (getestet mit Ubuntu 24 LTS Server)
+
 Abrbeitsspeicher sollte mindestens 16 GB Ram sein für llama3.1
+
 mindestens 40 GB Speicherplatz Festplatte/SSD
+
 root Rechte
 
 ## Installation
