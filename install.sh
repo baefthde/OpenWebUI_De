@@ -1,9 +1,10 @@
 #!/bin/bash
-cd ~
 echo " "
 echo "  Installation von OpenWebUI_De"
 echo "  von https://github.com/baefthde/OpenWebUI_De/"
 echo " "
+echo "  Ins User Verzeichnis gehen"
+cd ~
 echo "  System aktualisieren"
 sudo apt-get update
 sudo apt-get upgrade
