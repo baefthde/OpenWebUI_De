@@ -7,6 +7,11 @@ Ziel ist eine einfache Installation und starten der OpenWebUi auf Deutsch mit De
 
 Ein Script für die Installation und anschließende Registrierung und Einstellungen für Deutsche Sprachausgabe
 
+## Dokumentation
+
+Die Dokumentation  ist noch in Arbeit.
+[Dokumentation](https://github.com/baefthde/OpenWebUI_De/blob/master/docs/README.md)
+
 ## Abhängigkeiten
 
  - Linux (getestet mit Ubuntu 24 LTS Server)
@@ -15,7 +20,7 @@ Ein Script für die Installation und anschließende Registrierung und Einstellun
 
  - mindestens 40 GB Speicherplatz Festplatte/SSD
 
-- -root Rechte
+ - root Rechte
 
 ## Installation
 
