@@ -1,4 +1,5 @@
 #!/bin/bash
+cd ~
 echo " "
 echo "  Installation von OpenWebUI_De"
 echo "  von https://github.com/baefthde/OpenWebUI_De/"
